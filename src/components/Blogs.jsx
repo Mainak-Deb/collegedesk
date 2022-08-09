@@ -34,7 +34,7 @@ const Blogs = () => {
             return (
               <p key={index}>
                 <div className="blog">
-                  <b>{item.Stream}</b>
+                  <b className='bloghead'>{item.Stream}</b><hr />
                   <div>
                   {item.Subject}
                   </div>

@@ -14,12 +14,11 @@ const About = () => {
           <h2>Why was this made?</h2>
 
           <p>
-            We made this because we wanted to connect our college students to each other and their alimnis.
-            We wanted to make a platform where students can share their knowledge and experiences with each other by posting blogs.
-            here anyone can post blog and share it with the college. You can post about Job notification,meeting,events,etc.
-            You can also post about your own experiences and share it with the college.
-            This is a facebook for college.
-            You can search about any student in this website , you will get the profile of the student by clicking on the card.
+          We made this because we wanted to connect our college students to each other and their alumni. 
+          We wanted to make a platform where students can share their knowledge and experiences with each other by posting blogs.
+          here anyone can post a blog and share it with the college. You can post about Job notifications, meetings, events, etc.
+          You can also post about your own experiences and share them with the college. This is a Facebook for college. 
+          You can search about any student on this website, you will get the profile of the student by clicking on the card.
 
           </p>
         </div>

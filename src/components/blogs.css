@@ -67,3 +67,8 @@
   color: rgb(57, 255, 26);
   text-decoration: none;
 }
+.bloghead{
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
