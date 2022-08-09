@@ -1,0 +1,64 @@
+.alumniCollec {
+  min-height: 75vh;
+  max-width: 1050px;
+  margin: auto;
+  padding: 2rem 1rem;
+  padding-top: 80px;
+    /* Dropdown Button */
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu on hover */
+}
+
+.stream{
+ 
+}
+
+.alumniCollec h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.alumniCollec .drop {
+  display: flex;
+  justify-content: right;
+}
+.alumniCollec .dropbtn {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bdbdbd;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+.alumniCollec .dropbtn span {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+.alumniCollec .dropdown {
+  position: relative;
+}
+.alumniCollec .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.alumniCollec .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.alumniCollec .dropdown-content a:hover {
+  background-color: #ddd;
+}
+.alumniCollec .dropdown:hover .dropdown-content {
+  display: block;
+}/*# sourceMappingURL=cse.css.map */

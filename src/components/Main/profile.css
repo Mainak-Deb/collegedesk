@@ -1,0 +1,33 @@
+.blue{
+    color: blue;
+}
+.Account {
+    max-width: 1150px;
+    margin: auto;
+  }
+  .Account h1 {
+    text-align: center;
+  }
+  .Account .profile {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Account .profile .image {
+    width: 200px;
+    background: gray;
+
+  }
+  .Account .profile .information {
+    margin-bottom: 2rem;
+    width: 50%;
+    padding: 5rem;
+    margin-left: 2rem;
+    background: #4062FF;
+    color: white;
+    box-shadow: 3px 3px 20px rgba(136, 136, 136, 0.337254902);
+    border-radius: 5px;
+  }/*# sourceMappingURL=profile.css.map */
+  .vlk{
+    color: rgb(0, 0, 0);
+  }
