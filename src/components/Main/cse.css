@@ -24,6 +24,7 @@
 .alumniCollec .drop {
   display: flex;
   justify-content: right;
+  padding-top: 2rem;
 }
 .alumniCollec .dropbtn {
   display: flex;
@@ -62,3 +63,10 @@
 .alumniCollec .dropdown:hover .dropdown-content {
   display: block;
 }/*# sourceMappingURL=cse.css.map */
+
+
+@media only screen and (max-width: 700px) {
+  .stream h1{
+    font-size: 30px;
+  }
+}
