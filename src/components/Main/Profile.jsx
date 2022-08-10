@@ -55,17 +55,17 @@ const Profile = () => {
     <div className='Account'>
       <h1>{data.Name}</h1>
       <div className="profile">
-        <div>
+        <div className='imag'>
           <img src={imgurl} alt=""  className="image"/>
         </div>
 
         <div className="information">
           <p>Name: <span className='vlk'>{data.Name}</span></p>
-          <p>email: <a href={"mailto:"+data["Email Address"]}> {data["Email Address"]}</a></p>
+          <p>Email: <a href={"mailto:"+data["Email Address"]}> {data["Email Address"]}</a></p>
           <p>Passing Year: <span className='vlk'>{data["Passing Year"]}</span></p>
           <p>LinkedIn Url: <a href={data["LinkedIn url"]}>{data["LinkedIn url"]}</a></p>
           <p>Description: <span className='vlk'>{indices[5]}</span></p>
-          <p>Further Education after GCETTS: {indices[6]}</p>
+          <p>Further Education after GCETTS: <span>{indices[6]}</span></p>
           <p>WhatsApp No: <span className='vlk'>{indices[9]}</span></p>
           <p>Social media Link(1):  <a href={indices[7]}>{indices[7]}</a></p>
           <p>Social media Link(2):  <a href={indices[8]}>{indices[8]}</a></p>
