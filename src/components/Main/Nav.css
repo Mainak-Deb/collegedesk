@@ -5,7 +5,7 @@ body {
   }
   
   a {
-    color: #000;
+    color: #06283D;
   }
   
   /* header */
@@ -15,15 +15,21 @@ body {
     position: fixed;
     width: 100%;
     display: block;
+    align-items: center;
     z-index: 3;
   }
-  
+  .header .logo p{
+    position: relative;
+    top: -10px;
+    text-transform: uppercase;
+  }
   .header ul {
     margin: 0;
     padding: 0;
     list-style: none;
     overflow: hidden;
     background-color: #fff;
+    text-transform: uppercase;
   }
   
   .header li a {
@@ -110,7 +116,7 @@ body {
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 340px;
+    max-height: 440px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -132,7 +138,7 @@ body {
   
   /* 48em = 768px */
   
-  @media (min-width: 48em) {
+  @media (min-width: 901px) {
     .header li {
       float: left;
     }
@@ -149,3 +155,16 @@ body {
     }
   }
   
+
+  @media only screen and (max-width: 870px) {
+    .header .menu li{
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .header  .logo b{
+      font-size: 25px;
+    }
+    .header  .logo p{
+      font-size: 10px;
+    }
+  }

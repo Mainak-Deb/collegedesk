@@ -40,14 +40,21 @@
   background: #5d7bff;
 }
 .blogs p {
-  box-shadow: 3px 3px 20px rgba(136, 136, 136, 0.337254902);
+  box-shadow: 3px 3px 10px rgba(136, 136, 136, 0.337254902),-3px -3px 10px rgba(136, 136, 136, 0.337254902);
   padding: 1rem;
   margin: 1rem 0;
-  border-radius: 35px;
+  border-radius: 15px;
 }
 .blogs p:nth-child(odd) {
   background: #4062FF;
+  color: white;
+  
 }
+
+.blogs hr{
+  width: 20%;
+}
+
 
 @media only screen and (min-width: 760px) {
   h1 {
@@ -72,4 +79,13 @@
   margin-bottom: 20px;
   padding: 10px;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .blogs .head h1{
+      font-size: 30px;
+    }
+    .blogs .blog{
+      font-size: 12px;
+    }
 }

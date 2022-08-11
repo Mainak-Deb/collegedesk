@@ -41,7 +41,7 @@
   margin-right: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   .about .cont {
     display: flex;
   }
@@ -54,3 +54,8 @@
   }
 }/*# sourceMappingURL=about.css.map */
 
+@media only screen and (max-width: 700px) {
+  .about h1{
+    padding-top: 2rem;
+  }
+}
