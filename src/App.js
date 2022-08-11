@@ -7,6 +7,7 @@ import About from "./components/About";
 import Blogs from "./components/Blogs";
 import Search from "./components/Search";
 import Profile from "./components/Main/Profile";
+import Footer from "./components/Main/footer";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path=":streamname" element={<Search />} />
           </Route>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

@@ -1,0 +1,133 @@
+.footer {
+  padding-top: 1rem;
+  background: #090d2c;
+  color: white;
+}
+.footer .upprft {
+  max-width: 1050px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+
+.footer .upprft .left p{
+  color: rgb(192, 192, 192);
+  position: relative;
+  top: -2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+.footer .upprft .mid {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.footer .upprft .mid a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+.footer .upprft .right {
+  padding-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+.footer .upprft .right h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: -3px;
+}
+.footer .upprft .right hr {
+  width: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  position: relative;
+  right: 35px;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+.footer .upprft .right a {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.footer .lowerft {
+  max-width: 1050px;
+  margin: auto;
+  padding-bottom: 0.5rem;
+}
+.footer .lowerft a {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+.footer .lowerft hr {
+  width: 80%;
+  margin: 10px auto;
+}
+.footer .lowerft h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 700px) {
+  .footer .upprft .left{
+    font-size: 14px;
+  }
+
+  .footer .upprft .left p{
+    top: -15px;
+    letter-spacing: 2.5px;
+    font-size: 10px;
+  }
+
+  .footer .upprft .mid{
+    font-size: 15px;
+  }
+  .footer .upprft .right hr{
+    right: 25px;
+  }
+  .footer .upprft .right h3{
+    font-size: 20px;
+  }
+  .footer .upprft .right a{
+      font-size: 15px;
+  }
+  
+}
+@media only screen and (max-width: 480px) {
+  .footer .upprft .left{
+    font-size: 10px;
+  }
+
+  .footer .upprft .left p{
+    top: -10px;
+    letter-spacing: 2px;
+    font-size: 8px;
+  }
+
+  .footer .upprft .mid{
+    font-size: 13px;
+  }
+
+  .footer .upprft .right h3{
+    font-size: 15px;
+  }
+  .footer .upprft .right hr{
+    right: 22px;
+  }
+  .footer .upprft .right a{
+      font-size: 13px;
+  }
+  
+}
+/*# sourceMappingURL=comp.css.map */

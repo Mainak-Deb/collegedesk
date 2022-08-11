@@ -11,7 +11,8 @@
   .Account .profile {
     padding-top: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 2rem;
   }
   .Account .profile .image {
     width: 200px;
@@ -20,14 +21,55 @@
   }
   .Account .profile .information {
     margin-bottom: 2rem;
-    width: 50%;
     padding: 5rem;
-    margin-left: 2rem;
     background: #4062FF;
     color: white;
     box-shadow: 3px 3px 20px rgba(136, 136, 136, 0.337254902);
     border-radius: 5px;
   }/*# sourceMappingURL=profile.css.map */
-  .vlk{
-    color: rgb(0, 0, 0);
+  
+  .Account .image{
+    
+    border-radius: 50%;
+  }
+  .Account .information p{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    
+    
+  }
+  .Account .information span ,.Account .information a {
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    margin-left: 1rem;
+    text-align: right;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .Account h1{
+      font-size: 30px;
+    }
+    .Account .imag{
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+    .Account .profile{
+      flex-direction: column;
+    }
+    .Account .profile .information{
+      margin: 0.5rem;
+      padding: 1rem;
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 10px;
+    }
+
+    .Account .image{
+      align-items: center;
+      margin: auto;
+    }
+    .Account .information span ,.Account .information a{
+      font-size: 10px;
+    }
   }
