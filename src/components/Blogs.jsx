@@ -24,9 +24,9 @@ const Blogs = () => {
 
           <h1  >Blogs</h1> 
          
-          <a className="addblog"  href="https://docs.google.com/forms/d/e/1FAIpQLScZExHSASPtfz6wRJeuXbp-q1udkWPR1qvvr3XfzlWzRV6lag/viewform?usp=sf_link">    
+        <span>  <a className="addblog"  href="https://docs.google.com/forms/d/e/1FAIpQLScZExHSASPtfz6wRJeuXbp-q1udkWPR1qvvr3XfzlWzRV6lag/viewform?usp=sf_link">    
               Add <i className="gg-add"></i>
-          </a>
+          </a></span>
          
         </div>
         {

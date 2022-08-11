@@ -46,7 +46,7 @@ const Search = () => {
           <span className="blue"> {streamname.toUpperCase()} </span> SEARCH{" "}
         </h1>
         <input
-          placeholder="Search.."
+          placeholder="Eg : Mainak Deb"
           name="search"
           className="searchbox"
           value={input}
