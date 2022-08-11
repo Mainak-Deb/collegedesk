@@ -29,7 +29,7 @@ const About = () => {
               <p><b>Mainak Deb</b></p>
               <p>Mainak Deb is a 2019-2023 batch CSE student, he is a full-stack web developper, this website was one of his dream in college, he designed the backend and architecture of this website</p>
               <p><b>Auric Mondal</b></p>
-              <p>Hey, I am Auric Mondal. I am the student of 2021-2025 batch of GCETTS (TT). Apart from my domain of study I am a self learned semi-professional UI/UX designer and a front-end developer.</p>
+              <p>Hey, I am Auric Mondal. I am the student of 2021-2025 batch of GCETTS (TT). Apart from my domain of study I am a self learned UI/UX designer and a front-end developer.</p>
 
             </p>
           </div>

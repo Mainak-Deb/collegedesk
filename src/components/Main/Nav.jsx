@@ -21,7 +21,7 @@ const Nav = (props) => {
 
   return (
     <div>
-      <header class="header">
+      <div class="header">
         <a to="" class="logo">
           <b>College Desk</b> 
           <p className="headp">connecting the alumni</p>
@@ -51,7 +51,7 @@ const Nav = (props) => {
             <Link to={blog}>Blog</Link>
           </li>
         </ul>
-      </header>
+      </div>
     </div>
   );
 };
